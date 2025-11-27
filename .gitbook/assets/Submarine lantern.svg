@@ -1,0 +1,24 @@
+<svg width="1300" height="1221" viewBox="0 0 1300 1221" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_5052_20813)">
+<ellipse cx="650" cy="610.398" rx="250" ry="209.906" fill="url(#paint0_angular_5052_20813)"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M763.398 498.698C775.685 570.557 775.685 650.235 763.398 722.094C691.539 734.381 611.861 734.381 540.002 722.094C527.715 650.235 527.715 570.557 540.002 498.698C611.861 486.411 691.539 486.411 763.398 498.698Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M763.398 498.698C775.685 570.557 775.685 650.235 763.398 722.094C691.539 734.381 611.861 734.381 540.002 722.094C527.715 650.235 527.715 570.557 540.002 498.698C611.861 486.411 691.539 486.411 763.398 498.698Z" fill="url(#paint1_linear_5052_20813)"/>
+<defs>
+<filter id="filter0_f_5052_20813" x="0" y="0.492188" width="1300" height="1219.81" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="200" result="effect1_foregroundBlur_5052_20813"/>
+</filter>
+<radialGradient id="paint0_angular_5052_20813" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(632.318 603.821) rotate(-180) scale(313.384 302.233)">
+<stop stop-color="#A4F6BD"/>
+<stop offset="0.287142" stop-color="#13CFC2"/>
+<stop offset="1" stop-color="#0039CB"/>
+</radialGradient>
+<linearGradient id="paint1_linear_5052_20813" x1="758.254" y1="642.03" x2="631.811" y2="468.686" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A4F6BD"/>
+<stop offset="0.6" stop-color="#13CFC2"/>
+<stop offset="1" stop-color="#00D1FF"/>
+</linearGradient>
+</defs>
+</svg>
