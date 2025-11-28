@@ -6,7 +6,7 @@ description: Set up your fee system
 
 ## **Management Fees**
 
-Management fees are a periodic charge on the assets under management (AUM) to compensate for managing the vault. They accumulate over time and are collected during the vault's settlement, based on the updated valuation.
+Management fees are a periodic charge on the assets under management (AUM). They accumulate over time and are collected during the vault's settlement, based on the updated valuation.
 
 $$
 \text{managementFee} = \left( \frac{\text{assets} \times \text{rate}}{\text{BPS}} \right) \times \frac{\text{timeElapsed}}{\text{1 year}}
@@ -23,7 +23,7 @@ The management fee increases linearly over time based on the assets curated and 
 
 ## **Performance Fees**
 
-Performance fees are applied exclusively to profits and are calculated only when the asset value surpasses the **high-water mark** (the highest reached price per share). This ensures fees are charged solely on new profits, not on recovered losses.
+Performance fees are applied exclusively to profits and are calculated based on the **high-water mark** (the highest reached price per share). This ensures fees are charged solely on new profits, not on recovered losses.
 
 $$
 \begin{align*}
@@ -45,7 +45,7 @@ The performance fee is directly tied to profits and managers are rewarded only f
 
 ## Protocol fees
 
-Lagoon earns a percentage of the fees collected by the vault. For example, if the vault accumulates 100 shares each from performance and management fees, and the protocol fee rate is 10%, Lagoon receives 10% of the combined 200 shares, equating to 20 shares.
+Lagoon earns a percentage of the fees collected by the vault. For example, if the vault computes 200 shares for performance and management fees, and the protocol fee rate is 10%, Lagoon receives 10% of the 200 shares, equating to 20 shares.
 
 ## Maximum Fee Limits
 
