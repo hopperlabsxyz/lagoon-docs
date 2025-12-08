@@ -24,7 +24,7 @@ Each approach has limitations:
 ## Lagoon at a glance
 
 * Lagoon is an EVM vault technology based on asynchronous vault (7540 standard).
-* Curators can independently deploy vaults on supported chains using the [**Lagoon Vault Factory**](vault/create-your-vault/).
+* Curators can independently deploy vaults on supported chains using the [**Lagoon Vault Factory**](/broken/pages/1uX1bXCjUHCCIjzAuoYl).
 * Execute **any** strategy with maximum flexibility.
 * Management and performance fee mechanism.
 * Role based management of the vault (valuation oracle, curator, admin).
@@ -35,6 +35,6 @@ With Lagoon, curators regain full control over their strategies without sacrific
 
 ### Open & Permission-less deployment
 
-Now, with the [**Lagoon Vault Factory**](vault/create-your-vault/), anyone can deploy as many vaults as they need across supported chains.
+Now, with the [**Lagoon Vault Factory**](/broken/pages/1uX1bXCjUHCCIjzAuoYl), anyone can deploy as many vaults as they need across supported chains.
 
 📩 **Need help?** Contact our team by filling in [**this form**](https://tally.so/r/nGBGyz)**.**

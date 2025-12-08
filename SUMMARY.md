@@ -22,6 +22,7 @@
   * [Curator](vault/roles-and-capacities/curator.md)
   * [Whitelist Manager](vault/roles-and-capacities/whitelist-manager.md)
 * [Create your vault](vault/create-your-vault/README.md)
+  * [Via Etherscan](vault/create-your-vault/via-etherscan.md)
   * [Vault post-deployment operations](vault/create-your-vault/vault-post-deployment-operations.md)
   * [Access your vault on Lagoon](vault/create-your-vault/access-your-vault-on-lagoon.md)
   * [Lagoon Premium](vault/create-your-vault/lagoon-premium.md)

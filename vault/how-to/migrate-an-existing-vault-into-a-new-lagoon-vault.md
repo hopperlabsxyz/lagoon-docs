@@ -40,7 +40,7 @@ _Concretely, the address 0x123 owns 4 shares out of the 10 total shares, which i
 
 ## Step2: Create a Lagoon vault
 
-[Follow this guide](../create-your-vault/). In our case, it will be a USDC vault and its address is 0xabc.
+[Follow this guide](/broken/pages/1uX1bXCjUHCCIjzAuoYl). In our case, it will be a USDC vault and its address is 0xabc.
 
 
 
