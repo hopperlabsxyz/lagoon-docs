@@ -3,7 +3,7 @@
 ## The first Valuation update
 
 {% hint style="danger" %}
-Before updating the valuation of a vault, please read how it works [here](../vault-valuation.md).
+Before updating the valuation of a vault, please read how it works [here](https://app.gitbook.com/o/lCXvsIGfJAYmkImyThoD/s/5vcVbvvRrtwZ0uaFrufF/vault/vault-valuation#how-to-compute-a-valuation).
 {% endhint %}
 
 If it is your first valuation update, the input value will be 0, regardless of the fact that there are pending deposit requests. If you don't understand why, please check the documentation on how the [Vault Valuation works](../vault-valuation.md).
