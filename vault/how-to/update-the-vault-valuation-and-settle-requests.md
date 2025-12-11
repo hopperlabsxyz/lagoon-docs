@@ -1,12 +1,12 @@
 # Update the vault valuation & settle requests
 
-## The first Valuation update
+## The first valuation update
 
 {% hint style="danger" %}
 Before updating the valuation of a vault, please read how it works [here](../vault-valuation.md).
 {% endhint %}
 
-If it is your first valuation update, the input value will be 0, regardless of the fact that there are pending deposit requests. If you don't understand why, please check the documentation on how the [Vault Valuation works](../vault-valuation.md).
+If it is your first valuation update, the input value will be 0, regardless of the fact that there are pending deposit requests. If you don't understand why, please check the documentation on how the [vault valuation works](../vault-valuation.md).
 
 ## Update the vault valuation
 
@@ -33,7 +33,7 @@ On this page, you can see the current state of your vault.
 
 #### Simulation mode & propose valuation
 
-By touching the input bar, you will enter the simulation mode. It will display in green the new vault state if the vault valuation was effective.
+By touching the input bar, you will enter the simulation mode. It will display in green the new vault state if the valuation was settled.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-04-25 at 19.23.42.png" alt=""><figcaption><p>Vault state with a new valuation</p></figcaption></figure>
 
@@ -43,7 +43,7 @@ Click `Propose new valuation` button to initiate the transaction.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-04-28 at 14.40.03.png" alt=""><figcaption><p>A vault ready to be settled by the curator</p></figcaption></figure>
 
-After the Valuation Oracle proposed the new valuation, the curator is in a position to validate it.
+After the valuation Oracle proposed the new valuation, the curator can validate it.
 
 Let's have a look at the information displayed.
 
@@ -70,7 +70,7 @@ That is because the best moment to honor redemption requests is when there is a 
 {% endhint %}
 
 {% hint style="info" %}
-Why do the settlement operations only **try** to settle redemptions?
+Why do the settlement calls only **try** to settle redemptions?
 
 In order to improve the curator's flexibility, the settlement of redemptions will only happen if there are enough assets in the curator's address. It is the curator's job to make sure it is the case.
 {% endhint %}
