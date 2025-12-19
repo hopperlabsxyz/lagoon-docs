@@ -60,6 +60,7 @@
 ## RESOURCES
 
 * [Networks & Addresses](resources/networks-and-addresses.md)
+* [Terms of use](resources/terms-of-use.md)
 * [Audits](resources/audits.md)
 * [Brand Kit](resources/brand-kit.md)
 * [Github](https://github.com/hopperlabsxyz/lagoon-v0)
