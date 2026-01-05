@@ -35,6 +35,6 @@ With Lagoon, curators regain full control over their strategies without sacrific
 
 ### Open & Permission-less deployment
 
-Now, with the [**Lagoon Vault Factory**](/broken/pages/1uX1bXCjUHCCIjzAuoYl), anyone can deploy as many vaults as they need across supported chains.
+Now, with the [**Lagoon Vault Factory**](vault/create-your-vault/), anyone can deploy as many vaults as they need across supported chains.
 
 📩 **Need help?** Contact our team by filling in [**this form**](https://tally.so/r/nGBGyz)**.**
