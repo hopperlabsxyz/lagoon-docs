@@ -85,7 +85,7 @@ For example, a vault curator using a Safe can bridge funds across EVM chains, no
 
 <summary><strong>How decentralized is the protocol?</strong></summary>
 
-For now, vault deployed via the factory are upgradeable by Lagoon. Some of the first vaults deployed are upgradeable by the curator.
+Lagoon is responsible of submitting new versions of the vault but can't force vault owner to do an upgrade, only the "Upgrade Authority" of each vault has this power.&#x20;
 
 </details>
 
