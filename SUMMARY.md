@@ -65,5 +65,4 @@
 * [Brand Kit](resources/brand-kit.md)
 * [Github](https://github.com/hopperlabsxyz/lagoon-v0)
 * [X](https://x.com/lagoon_finance)
-* [Blog](https://medium.com/@lagoonfinance)
 * [LinkedIn](https://www.linkedin.com/company/lagoon-finance/)
