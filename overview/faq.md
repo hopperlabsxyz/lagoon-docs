@@ -85,7 +85,7 @@ For example, a vault curator using a Safe can bridge funds across EVM chains, no
 
 <summary><strong>How decentralized is the protocol?</strong></summary>
 
-Lagoon is responsible of submitting new versions of the vault but can't force vault owner to do an upgrade, only the "Upgrade Authority" of each vault has this power.&#x20;
+Lagoon is the only entity capable of deploying vault upgrades; however, enforcement of these upgrades is exclusive to each vault's "Upgrade Authority."
 
 </details>
 
