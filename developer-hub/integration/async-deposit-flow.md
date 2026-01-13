@@ -54,8 +54,8 @@ _Claiming the shares is not mandatory to start earning._
 
 A user can know the amount of claimable shares by calling:
 
-```
-function maxMint(address) public view virtual returns (uint256 shares)Copy
+```solidity
+function maxMint(address) public view virtual returns (uint256 shares)
 ```
 
 
@@ -63,13 +63,13 @@ function maxMint(address) public view virtual returns (uint256 shares)Copy
 He can claim them by calling:
 
 ```solidity
-function mint(uint256 shares, address receiver) public virtual returns (uint256)
+function mint(uint256 shares, address receiver) public virtual returns (uint256 assets)
 ```
 
 or
 
 ```solidity
-function deposit(uint256 assets, address receiver) public virtual returns (uint256)
+function deposit(uint256 assets, address receiver) public virtual returns (uint256 shares)
 ```
 
 
