@@ -62,9 +62,17 @@ function maxMint(address) public view virtual returns (uint256 shares)Copy
 
 He can claim them by calling:
 
+```solidity
+function mint(uint256 shares, address receiver) public virtual returns (uint256)
 ```
-function mint(uint256 shares, address receiver) public virtual returns (uint256)Copy
+
+or
+
+```solidity
+function deposit(uint256 assets, address receiver) public virtual returns (uint256)
 ```
+
+
 
 Args:
 
