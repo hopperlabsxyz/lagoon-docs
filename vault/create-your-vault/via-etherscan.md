@@ -10,7 +10,7 @@ You can find the supported chains and factories addresses [here](../../resources
 
 ## **Lagoon Vault Factory**
 
-The **Lagoon Vault Factory** is the core smart contract that enables permission-less deployment of on-chain Lagoon Vaults. It allows anyone to create a fully customizable vault across supported chains.
+The **Lagoon Vault Factory** is the core smart contract that enables permissionless deployment of on-chain Lagoon Vaults. It allows anyone to create a fully customizable vault across supported chains.
 
 {% hint style="warning" %}
 Before launching a vault, feel free to deploy a test vault on Arbitrum using the following Factory [here](https://arbiscan.io/address/0xb1ee4f77a1691696a737ab9852e389cf4cb1f1f5#writeProxyContract#F1).
