@@ -8,7 +8,7 @@ In Lagoon, the valuation of the vault is injected into the smart contract by the
 
 ### How to compute a valuation ?
 
-A new valuation proposal must exclusively take into account the positions held by the curating address. It mustn't include deposit and redemptions requests because they are not processed yet. They are pending outside of the vault, waiting to be settled.
+A new valuation proposal must exclusively take into account the positions held by the curating address. It mustn't include deposit and redemption requests because they are not processed yet. They are pending outside of the vault, waiting to be settled.
 
 Please see the following example:
 

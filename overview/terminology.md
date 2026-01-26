@@ -6,11 +6,11 @@ description: Learn about Lagoon's technical terms
 
 ## Vaults
 
-**Vaults are smart contract responsible of tokenizing the ownership of a strategy in exchange of an underlying asset.** Vault manage deposits, withdrawals, and accounting for the underlying asset.
+**Vaults are smart contracts responsible for tokenizing the ownership of a strategy in exchange of an underlying asset.** Vaults manage deposits, withdrawals, and accounting for the underlying asset.
 
 ## ERC-7540
 
-ERC-7540 vaults introduces **asynchronous deposits and withdrawals**, allowing vault entry and exit to be processed in a 2 steps fashion, one for the request and one for the claim. It is also used for share tokenization in ERC20 since it extends the capabilities of the ERC-4626. Lagoon vaults are based on this standard.
+ERC-7540 vaults introduce **asynchronous deposits and withdrawals**, allowing vault entry and exit to be processed in a 2 steps fashion, one for the request and one for the claim. It is also used for share tokenization in ERC20. Lagoon vaults are based on this standard.
 
 ## Multisig Wallet
 

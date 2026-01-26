@@ -55,9 +55,7 @@ Lagoon earns a percentage of the fees collected by the vault. For example, if th
 * Maximum Performance Fees: 50%
 * Maximum Protocol Fees: 30%. Lagoon charges 10% fees.
 
-## Cooldown period
 
-Fee percentage changes are subject to an immutable arbitrary cooldown period (e.g. 30 days). This prevents sneaky updates that could impact depositors trust.
 
 ## **Fee Distribution**
 

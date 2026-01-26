@@ -22,7 +22,7 @@ A Lagoon vault is made of:&#x20;
 
 <summary>What do users get when they deposit in a vault?</summary>
 
-In exchange of their assets, users receive a share of the vault, in the form of an ERC20.
+Users receive ERC20 tokens, representing a share of the vault, in exchange for their assets.
 
 </details>
 
@@ -46,7 +46,7 @@ Chains list is available at [networks-and-addresses.md](../resources/networks-an
 
 <summary><strong>Can the curating solution/address be updated? (safe variable in the smart contract)</strong></summary>
 
-No, it can't be updated.
+This feature is not currently available but will be included in a future update.
 
 </details>
 
@@ -54,7 +54,7 @@ No, it can't be updated.
 
 <summary><strong>What types of strategy can be set up?</strong></summary>
 
-It depends on the curation solution you chose and its flexibility.
+It varies depending on the chosen curation solution and its adaptability.
 
 </details>
 
@@ -65,7 +65,7 @@ It depends on the curation solution you chose and its flexibility.
 Lagoon has the capacity to activate a fee switch at the protocol and vault level. Those are capped at 30% and are taken on the fees of the curator. Currently no vault is subject to fees.\
 \
 &#xNAN;_&#x45;xample:_\
-_A curator generates 1000 shares of fees thanks via management and performance fees. The protocol fee rate is 10% for this vault. Lagoon will receive 100 shares and the fee receiver 900 shares._
+_A curator generates 1000 shares of fees through management and performance fees. The protocol fee rate is 10% for this vault. Lagoon will receive 100 shares and the fee receiver 900 shares._
 
 </details>
 
@@ -73,7 +73,7 @@ _A curator generates 1000 shares of fees thanks via management and performance f
 
 <summary>Can a vault do cross-chain strategies ?</summary>
 
-The strategies a curator can do is exclusively limited by the curation solution he used.&#x20;
+The strategies a curator can execute are exclusively limited by the curation solution he used.&#x20;
 
 For example, a vault curator using a Safe can bridge funds across EVM chains, non-EVM chains, and even CEXs.&#x20;
 
@@ -101,7 +101,7 @@ Yes all contracts are verified on Etherscan.
 
 <summary><strong>Has Lagoon been audited?</strong></summary>
 
-Yes several iterations of the vaults have been audited by Nethermind, find out more [here](../resources/audits.md).
+At Lagoon, we prioritize security and focus on delivering high-quality code with thorough tests and audits. The several iterations of the vaults have been audited by Nethermind. Discover more [here](../resources/audits.md).&#x20;
 
 </details>
 

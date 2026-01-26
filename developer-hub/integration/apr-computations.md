@@ -1,5 +1,5 @@
 ---
-description: This page describe the various methods used to compute Lagoon Vaults APR.
+description: This page describes the various methods used to compute Lagoon Vaults APR.
 ---
 
 # APR computations
@@ -7,7 +7,7 @@ description: This page describe the various methods used to compute Lagoon Vault
 In order to compute those metrics, we will rely on the Period Summaries given by the [Lagoon subgraphs.](vault-subgraphs.md)&#x20;
 
 {% hint style="info" %}
-Period summaries are piece of data that summaries key vault metrics evolution. A period being the time between two updates of TotalAssets.
+Period summaries are pieces of data that summaries key vault metrics. A period being the time between two updates of TotalAssets.
 {% endhint %}
 
 As a reminder, here is what we can find inside a Period Summary:

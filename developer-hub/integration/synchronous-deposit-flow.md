@@ -22,7 +22,7 @@ function syncDeposit(uint256 assets, address receiver, address referral) payable
 
 ## How to know if synchronous deposits are currently possible?
 
-if the function `isTotalAssetsValid` returns true, users can do synchronous deposits. If it returns false, users must do [async deposits](async-deposit-flow.md).
+if the function `isTotalAssetsValid()` returns true, users can do synchronous deposits. If it returns false, users must do [async deposits](async-deposit-flow.md).
 
 ```solidity
 function isTotalAssetsValid() returns (bool);

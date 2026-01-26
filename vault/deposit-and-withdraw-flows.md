@@ -20,7 +20,7 @@ The pending silo is a utility contract deployed at the creation of the vault to 
 
 #### 2) Valuation update and settlement
 
-To settle the requests, the vault need the fair valuation of its various positions. In Lagoon, this information is injected into the smart contract by the [Valuation Oracle](roles-and-capacities/valuation-oracle.md).&#x20;
+To settle the requests, the vault needs the fair valuation of its various positions. In Lagoon, this information is injected into the smart contract by the [Valuation Oracle](roles-and-capacities/valuation-oracle.md).&#x20;
 
 For more security, it is a two-steps procedure:
 

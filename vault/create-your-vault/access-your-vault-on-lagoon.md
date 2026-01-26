@@ -17,7 +17,7 @@ You can also reach it by going to:
 This interface allows you to:
 
 * Submit new NAV proposals (as [Valuation Oracle](../roles-and-capacities/valuation-oracle.md))
-* Execute [settlements](../../overview/terminology.md#vault-settlement) (as [Currator](../roles-and-capacities/curator.md)).&#x20;
+* Execute [settlements](../../overview/terminology.md#vault-settlement) (as [Curator](../roles-and-capacities/curator.md)).
 
 ## Deposit and Withdraw into your Vault
 

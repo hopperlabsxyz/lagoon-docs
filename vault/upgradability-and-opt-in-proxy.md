@@ -8,15 +8,15 @@ Lagoon uses edited versions of the [OpenZeppelin Transparent Upgradeable Proxy](
 
 ## Opt-in system
 
-Vault administrator can upgrade there vault to a limited set of audited versions, developed and whitelisted by Lagoon.
+Vault administrator can upgrade their vault to a limited set of audited versions, developed and whitelisted by Lagoon.
 
 When a new version is available, the vault admin can choose to upgrade at any time. Rolling back to a previous version is also supported.
 
 ## Delay mechanism
 
-Every upgrade will take at least 24 hours to be effective and at maximum 30 days. This system ensure that users have time to evaluate the in-coming upgrade and request a redemption it they want to.
+Every upgrade will take at least 24 hours and at most 30 days to be effective. This system ensures that users have time to evaluate the in-coming upgrade and request a redemption if they want to.
 
-This delay itself can be upgraded. This change is also subject to the same delay mechanism.&#x20;
+This delay itself can be upgraded. This change is also subject to the same delay mechanism.
 
 
 
@@ -46,7 +46,7 @@ A protocol level smart-contract that contains a whitelist of authorized implemen
 
 ### DelayProxyAdmin
 
-A Proxy Admin is a smart-contract deployed by an Opt-inProxy at it's creation. This contract is the only address that can upgrade the Opt-inProxy.
+A Proxy Admin is a smart-contract deployed by an Opt-inProxy at its creation. This contract is the only address that can upgrade the Opt-inProxy.
 
 The DelayProxyAdmin has an editable owner that is the only one capable of doing the following calls:
 
@@ -77,7 +77,7 @@ Yes, a vault can become immutable if the owner of DelayProxyAdmin gives up his o
 
 <summary>Can I rollback a vault upgrade ?</summary>
 
-Any form of downgrades are authorized for now. Note that a downgrade won't re-initialize the state of your vault, which means that if you upgrade again to the previous version, you will get back the previous state.
+Any form of downgrades are authorized for now. Note that a downgrade won't reinitialize the state of your vault, which means that if you downgrade to the previous version, you will get back the previous state.
 
 </details>
 
@@ -85,9 +85,7 @@ Any form of downgrades are authorized for now. Note that a downgrade won't re-in
 
 <summary>How can I be informed of new vault versions releases ?</summary>
 
-You can track new smart contracts release on [our github](https://github.com/hopperlabsxyz/lagoon-v0/releases).&#x20;
-
-We will also propose soon a telegram chanel to follow our latest updates.
+Stay updated on Lagoon developments [here](https://t.me/+mvB7YsN80P5jNTVk).
 
 </details>
 

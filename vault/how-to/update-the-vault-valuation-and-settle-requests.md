@@ -14,7 +14,7 @@ In Lagoon, the valuation of the vault is injected into the smart contract by the
 
 For more security, it is a two-step procedure:
 
-* First, the Valuation Oracle will store its valuation proposal in the vault.
+* First, the Valuation Oracle will store a valuation proposal in the vault.
 * Then, the curator can accept this valuation by calling either `settleDeposit/settleRedeem`. Note that they are not exactly equivalent; you can learn more [here](update-the-vault-valuation-and-settle-requests.md#settledeposit-vs-settleredeem).
 
 To access the management page, please check this [tutorial](../create-your-vault/access-your-vault-on-lagoon.md).
