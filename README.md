@@ -7,7 +7,7 @@ coverY: 0
 
 ### For managers <a href="#why-lagoon" id="why-lagoon"></a>
 
-Lagoon is a permission-less on-chain vault infrastructure for managers to deploy and distribute DeFi strategies.
+Lagoon is a permissionless on-chain vault infrastructure for managers to deploy and distribute DeFi strategies.
 
 Each vault tokenizes client deposits as ERC20-compliant shares, handle redemption logic and automatically handles fee computations and role management.
 
