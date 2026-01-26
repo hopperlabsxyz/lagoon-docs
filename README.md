@@ -1,40 +1,39 @@
 ---
-description: >-
-  Lagoon is a permission-less on-chain vault technology focused on flexibility
-  and ease of use for curators.
 cover: .gitbook/assets/gitbook_cover.png
 coverY: 0
 ---
 
 # What is Lagoon?
 
-### Why Lagoon? <a href="#why-lagoon" id="why-lagoon"></a>
+### For managers <a href="#why-lagoon" id="why-lagoon"></a>
 
-Managing on-chain assets for third parties today typically relies on two approaches:
+Lagoon is a permission-less on-chain vault infrastructure for managers to deploy and distribute DeFi strategies.
 
-* **Segregated Managed Accounts (SMAs)** using tools like **Safe** or MPC custodians.
-* **Fully on-chain tokenized fund protocols (Vault-ERC4626)** that wrap strategies into ERC-20 vault tokens.
+Each vault tokenizes client deposits as ERC20-compliant shares, handle redemption logic and automatically handles fee computations and role management.
 
-Each approach has limitations:
+On top of that, Lagoon provides extra institutional-grade tools including:
 
-**SMAs** are not designed to scale. Managing thousands (or millions) of user wallets is almost impossible operationally, requiring constant coordination between the curator and each user for deposits, withdrawals, and strategy changes. Delays or missed communications can lead to lost yield—or worse, capital loss.
+* Third-party NAV computation
+* MPC signing for enhanced security
+* Granular permission controls
+* Regulatory-compliant reporting
 
-**Fully on-chain tokenized fund protocols**, while more scalable, often come with rigid infrastructure. They require new specific development integration with each DeFi protocol individually, introducing additional smart contract needed to be audit and reducing agility for curators. This restricts their ability to move quickly and capitalize on market opportunities.
+As a managers, builders, protocols, chains & asset Issuers, you can already deploy a vault [here](vault/create-your-vault/).
 
-## Lagoon at a glance
+### For depositors <a href="#why-lagoon" id="why-lagoon"></a>
 
-* Lagoon is an EVM vault technology based on asynchronous vault (7540 standard).
-* Curators can independently deploy vaults on supported chains using the [**Lagoon Vault Factory**](vault/create-your-vault/).
-* Execute **any** strategy with maximum flexibility.
-* Management and performance fee mechanism.
-* Role based management of the vault (valuation oracle, curator, admin).
+Lagoon enables investors to discover, evaluate, and invest in curated DeFi strategies.
 
-With Lagoon, curators regain full control over their strategies without sacrificing scalability or security.
+The platform provides transparent reporting including:
+
+* Real-time position monitoring
+* Historical performance data
+* Clear fee disclosure
+
+Each investment is represented as a tokenized vault share, offering liquidity and composability.
+
+
 
 ***
-
-### Open & Permission-less deployment
-
-Now, with the [**Lagoon Vault Factory**](vault/create-your-vault/), anyone can deploy as many vaults as they need across supported chains.
 
 📩 **Need help?** Contact our team by filling in [**this form**](https://tally.so/r/nGBGyz)**.**
