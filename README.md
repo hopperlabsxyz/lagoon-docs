@@ -9,7 +9,7 @@ coverY: 0
 
 Lagoon is a permissionless on-chain vault infrastructure for managers to deploy and distribute DeFi strategies.
 
-Each vault tokenizes client deposits as ERC20-compliant shares, handle redemption logic and automatically handles fee computations and role management.
+Each vault tokenizes client deposits as ERC20-compliant shares, handles redemption logic and automatically handles fee computations and role management.
 
 On top of that, Lagoon provides extra institutional-grade tools including:
 
