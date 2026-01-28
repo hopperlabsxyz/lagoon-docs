@@ -49,7 +49,7 @@ Let's have a look at the information displayed.
 
 * **Total assets and new total assets -** here we can see a valuation update from \~2,508,115 USD0++ to \~2,508,330 USD0++.&#x20;
 * **Calculated Fees -** Since the new valuation is lower than _Asset at the high-water mark_, no performance fees will be taken, and the high-water mark will remain unchanged. On the other hand, management fees are taken.
-* **Requests** - There for \~30,460 USD0++ ready to be deposited and \~624.94 ustUSR++ (vault shares) ready to be redeemed. To redeem the shares, the vault will use the assets being deposited and those present in the curator's address. That's why the section _Underlying to Unwind_ is empty; there are enough pending deposits to settle the redemptions.
+* **Requests** - There are \~30,460 USD0++ ready to be deposited and \~624.94 ustUSR++ (vault shares) ready to be redeemed. To redeem the shares, the vault will use the assets being deposited and those present in the curator's address. That's why the section _Underlying to Unwind_ is empty; there are enough pending deposits to settle the redemptions.
 * **Settle with deposits** button - See next section.&#x20;
 
 #### SettleDeposit vs SettleRedeem
